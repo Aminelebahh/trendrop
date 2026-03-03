@@ -1,10 +1,11 @@
 import { Resend } from 'resend'
 import { Product } from '@/types'
 
-const resend = new Resend(process.env.RESEND_API_KEY)
+const resend = process.env.RESEND_API_KEY ? new Resend(process.env.RESEND_API_KEY) : null
 const FROM = process.env.RESEND_FROM_EMAIL ?? 'noreply@trenddrop.fr'
 
 export async function sendWelcomeEmail(email: string, name?: string) {
+  if (!resend) return
   await resend.emails.send({
     from: FROM,
     to: email,
@@ -36,6 +37,7 @@ export async function sendWelcomeEmail(email: string, name?: string) {
 }
 
 export async function sendPaymentConfirmationEmail(email: string) {
+  if (!resend) return
   await resend.emails.send({
     from: FROM,
     to: email,
@@ -55,6 +57,7 @@ export async function sendPaymentConfirmationEmail(email: string) {
 }
 
 export async function sendWeeklyTrendsEmail(email: string, products: Product[]) {
+  if (!resend) return
   const productCards = products.slice(0, 10).map((p) => `
     <div style="background: #1a1a1a; border: 1px solid #2a2a2a; border-radius: 8px; padding: 16px; margin-bottom: 12px; display: flex; align-items: center; gap: 16px;">
       <img src="${p.image_url}" alt="${p.name}" style="width: 80px; height: 80px; object-fit: cover; border-radius: 6px;" />
@@ -88,6 +91,7 @@ export async function sendWeeklyTrendsEmail(email: string, products: Product[]) 
 }
 
 export async function sendPaymentFailedEmail(email: string) {
+  if (!resend) return
   await resend.emails.send({
     from: FROM,
     to: email,
