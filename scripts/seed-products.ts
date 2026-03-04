@@ -14,7 +14,7 @@ const mockProducts = [
   {
     aliexpress_id: '1005005804746693',
     name: 'Montre connectée COLMI P71 — Appels, santé 24/7, 140+ sports',
-    image_url: 'https://ae01.alicdn.com/kf/S0c8948ca09fb4e3eb8e194b14f5240ffj.png',
+    image_url: 'https://ae01.alicdn.com/kf/Sbf1271f4607a461f8bb1ef30d12fe12f1.jpg',
     price_eur: 22.99,
     category: 'High-Tech',
     trend_score: 96,
@@ -27,7 +27,7 @@ const mockProducts = [
   {
     aliexpress_id: '1005003512522799',
     name: 'Projecteur Aurora Galaxy LED — Enceinte Bluetooth, bruit blanc',
-    image_url: 'https://ae01.alicdn.com/kf/H1a14491f76644773aa205dba8e26021cq.jpg',
+    image_url: 'https://ae01.alicdn.com/kf/S0c8948ca09fb4e3eb8e194b14f5240ffj.png',
     price_eur: 14.5,
     category: 'Maison',
     trend_score: 91,
@@ -53,7 +53,7 @@ const mockProducts = [
   {
     aliexpress_id: '32897215036',
     name: 'Sérum Vitamine C LANBENA — Anti-taches, éclat du teint 15ml',
-    image_url: 'https://ae01.alicdn.com/kf/Sa1e3e21b69bd4b3dafb522ba45cb8b95h.jpg',
+    image_url: 'https://images.unsplash.com/photo-1620916566398-39f1143ab7be?w=400&h=400&fit=crop',
     price_eur: 8.99,
     category: 'Beauté',
     trend_score: 87,
@@ -65,8 +65,8 @@ const mockProducts = [
   },
   {
     aliexpress_id: '1005001470621722',
-    name: 'Mini Drone H1 caméra 4K — WiFi FPV, pliable, maintien altitude',
-    image_url: 'https://ae01.alicdn.com/kf/Saf8b425c23204d2f9a3f263a854e6612V.png',
+    name: 'Mini Drone caméra 4K — WiFi FPV, pliable, maintien altitude',
+    image_url: 'https://images.unsplash.com/photo-1473968512647-3e447244af8f?w=400&h=400&fit=crop',
     price_eur: 45.99,
     category: 'High-Tech',
     trend_score: 85,
@@ -79,7 +79,7 @@ const mockProducts = [
   {
     aliexpress_id: '32982062929',
     name: 'Tapis de yoga PU naturel — Antidérapant, éco-responsable',
-    image_url: 'https://ae01.alicdn.com/kf/S3d6da36dcea6443681db916731479388I.jpg',
+    image_url: 'https://images.unsplash.com/photo-1601925228008-8cf9c85cfbdb?w=400&h=400&fit=crop',
     price_eur: 12.5,
     category: 'Sport',
     trend_score: 83,
@@ -92,7 +92,7 @@ const mockProducts = [
   {
     aliexpress_id: '1005003667667303',
     name: 'Organisateur câbles velcro — 16 attaches réutilisables bureau',
-    image_url: 'https://ae01.alicdn.com/kf/S29d61c7e24364636ab08a4ab0c619de4x.jpg',
+    image_url: 'https://images.unsplash.com/photo-1593642632559-0c6d3fc62b89?w=400&h=400&fit=crop',
     price_eur: 4.99,
     category: 'Maison',
     trend_score: 80,
@@ -105,7 +105,7 @@ const mockProducts = [
   {
     aliexpress_id: '32926087433',
     name: 'Lampe UV gel ongles LKE 36W — 12 LEDs, timer 30/60/90s',
-    image_url: 'https://ae01.alicdn.com/kf/S55da1e50c1694f7ebde6ea31130630b4E.jpg',
+    image_url: 'https://images.unsplash.com/photo-1604654894610-df63bc536371?w=400&h=400&fit=crop',
     price_eur: 16.99,
     category: 'Beauté',
     trend_score: 78,
@@ -118,7 +118,7 @@ const mockProducts = [
   {
     aliexpress_id: '1005001859938033',
     name: 'Veste imperméable randonnée — Légère, capuche, packable',
-    image_url: 'https://ae01.alicdn.com/kf/S3a359b71a0484ca4a5125efb50c62b21g.jpg',
+    image_url: 'https://images.unsplash.com/photo-1551028719-00167b16eac6?w=400&h=400&fit=crop',
     price_eur: 34.99,
     category: 'Mode',
     trend_score: 76,
@@ -131,7 +131,7 @@ const mockProducts = [
   {
     aliexpress_id: '33036295563',
     name: 'Jouet laser chat 3-en-1 — Automatique, diamant, interactif',
-    image_url: 'https://ae01.alicdn.com/kf/S365f5eda9c674d0c94e36ff687d37aa1v.jpg',
+    image_url: 'https://images.unsplash.com/photo-1592194996308-7b43878e84a6?w=400&h=400&fit=crop',
     price_eur: 9.99,
     category: 'Enfants',
     trend_score: 74,
@@ -144,7 +144,7 @@ const mockProducts = [
   {
     aliexpress_id: '33000111783',
     name: 'Collier lune étoile — Acier inoxydable, coquillage naturel',
-    image_url: 'https://ae01.alicdn.com/kf/Sd3fa7093dd6d4e9699e96b27d3fe19461.png',
+    image_url: 'https://images.unsplash.com/photo-1599643477877-530eb83abc8e?w=400&h=400&fit=crop',
     price_eur: 6.5,
     category: 'Bijoux',
     trend_score: 72,
@@ -157,7 +157,7 @@ const mockProducts = [
   {
     aliexpress_id: '1005002623215039',
     name: 'Chargeur sans fil 3-en-1 — iPhone + Apple Watch + AirPods rapide',
-    image_url: 'https://ae01.alicdn.com/kf/He792f5fbe4fb4d688efd3b0f788d7457b.jpg',
+    image_url: 'https://ae01.alicdn.com/kf/Sa5cf769580a341eba0756c0ac67cda23Q.jpg',
     price_eur: 19.99,
     category: 'High-Tech',
     trend_score: 70,
